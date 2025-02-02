@@ -6,6 +6,62 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "investor",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "usd_investor",
+						"type": "uint256"
+					}
+				],
+				"name": "buy_hadcoin",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "investor",
+						"type": "address"
+					}
+				],
+				"name": "equity_in_hadcoins",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "investor",
+						"type": "address"
+					}
+				],
+				"name": "equity_in_usd",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "max_hadcoins",
 				"outputs": [
@@ -16,6 +72,24 @@
 					}
 				],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "investor",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "sold_hadcoins",
+						"type": "uint256"
+					}
+				],
+				"name": "sell_hadcoin",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
@@ -73,10 +147,10 @@
 	},
 	"sources": {
 		"hadcoin_ico.sol": {
-			"keccak256": "0x28c0196275a4775d66f1ffb744b1119698071a58052ee040bdd188a3e30d0947",
+			"keccak256": "0xd23622985f45d5c4857cacb8f531e783c9c2493e1553350bd739330a36630be0",
 			"urls": [
-				"bzz-raw://a89dc01a1682b985e86a8be4720e1ac8d40ddd2be667ad192680f095ba95b6e6",
-				"dweb:/ipfs/QmP8M7YjAhVteZB14LATsfhC8etptaZBMLXEp9SLzMab44"
+				"bzz-raw://b06e7f3fd17285ca79e5afca06951634f16d19e5d9fbdcef48f4a1e3d0045b5d",
+				"dweb:/ipfs/QmUNhdCWmZvnvpQ2Hn6f7siUwxEqaCqBwMRDXL5k631YqF"
 			]
 		}
 	},
